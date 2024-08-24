@@ -1,0 +1,524 @@
+{
+  "style": {
+    "font-family": "Nunito Sans",
+    "background-color": "#F2F2F2",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#4C8EDA",
+    "border-width": 0,
+    "border-color": "#000000",
+    "radius": 75,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#ffffff",
+    "caption-font-size": 20,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "bare",
+    "label-color": "#ffffff",
+    "label-background-color": "#848484",
+    "label-border-color": "#848484",
+    "label-border-width": 3,
+    "label-font-size": 20,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "above",
+    "detail-orientation": "parallel",
+    "arrow-width": 3,
+    "arrow-color": "#848484",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#848484",
+    "type-background-color": "#F2F2F2",
+    "type-border-color": "#848484",
+    "type-border-width": 0,
+    "type-font-size": 21,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#848484",
+    "property-font-size": 20,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -121.35862815150328,
+        "y": -120.84364227994627
+      },
+      "caption": "node 1",
+      "style": {},
+      "labels": [
+        "user"
+      ],
+      "properties": {
+        "name": "Alice",
+        "age": "30",
+        "location": "New York"
+      }
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": -90.41039828377632,
+        "y": -617.3243455024938
+      },
+      "caption": "node 3",
+      "labels": [
+        "user"
+      ],
+      "properties": {
+        "name": "Charlie",
+        "age": "28",
+        "location": "London"
+      },
+      "style": {}
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": 372.86143229780987,
+        "y": -88.94120839128931
+      },
+      "caption": "node 2",
+      "labels": [
+        "user"
+      ],
+      "properties": {
+        "name": "Bob",
+        "age": "35",
+        "location": "Los Angeles"
+      },
+      "style": {}
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 1240.6526937198528,
+        "y": 198.82479105285265
+      },
+      "caption": "node 4",
+      "labels": [
+        "user"
+      ],
+      "properties": {
+        "name": "David",
+        "age": "32",
+        "location": "Paris"
+      },
+      "style": {}
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": -722.6828553873021,
+        "y": 680.6955317394004
+      },
+      "caption": "node 5",
+      "labels": [
+        "user"
+      ],
+      "properties": {
+        "name": "Emma",
+        "age": "27",
+        "location": "Berlín"
+      },
+      "style": {}
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 305.54582247329483,
+        "y": 947.9904097263998
+      },
+      "caption": "node 6",
+      "style": {},
+      "labels": [
+        "post"
+      ],
+      "properties": {
+        "content": "Great day at the beach!\t",
+        "timestamp": "2023-05-15 12:00:00"
+      }
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": 305.54582247329483,
+        "y": -845.9297761438957
+      },
+      "caption": "node 7",
+      "labels": [
+        "post"
+      ],
+      "properties": {
+        "content": "Exciting news! Launching a new product.",
+        "timestamp": "2023-05-14 15:30:00"
+      },
+      "style": {}
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": -617.7698203670573,
+        "y": -152.8875160693839
+      },
+      "caption": "node 8",
+      "labels": [
+        "post"
+      ],
+      "properties": {
+        "content": "Delicious dinner with friends.",
+        "timestamp": "2023-05-13 20:45:00"
+      },
+      "style": {}
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": 727.2227922272667,
+        "y": -617.3243455024938
+      },
+      "caption": "node 9",
+      "labels": [
+        "post"
+      ],
+      "properties": {
+        "caption": "Sunset at the mountains",
+        "timestamp": "2023-05-15 18:00:00"
+      },
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 370.29057188511183,
+        "y": 613.7699123906648
+      },
+      "caption": "node 10",
+      "labels": [
+        "post"
+      ],
+      "properties": {
+        "caption": "City skyline at night",
+        "timestamp": "2022-05-12 21:30:00"
+      },
+      "style": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "type": "FRIENDS",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n4"
+    },
+    {
+      "id": "n1",
+      "type": "FRIENDS",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n2"
+    },
+    {
+      "id": "n2",
+      "type": "FRIENDS",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n4"
+    },
+    {
+      "id": "n3",
+      "type": "FRIENDS",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n3"
+    },
+    {
+      "id": "n4",
+      "type": "FRIENDS",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n2"
+    },
+    {
+      "id": "n5",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n4"
+    },
+    {
+      "id": "n6",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n4"
+    },
+    {
+      "id": "n7",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n2"
+    },
+    {
+      "id": "n8",
+      "type": "FOLLOWS",
+      "style": {
+        "directionality": "directed"
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n2"
+    },
+    {
+      "id": "n9",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n3"
+    },
+    {
+      "id": "n10",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n0"
+    },
+    {
+      "id": "n11",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n3"
+    },
+    {
+      "id": "n12",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n0"
+    },
+    {
+      "id": "n13",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n1"
+    },
+    {
+      "id": "n14",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n4"
+    },
+    {
+      "id": "n15",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n4"
+    },
+    {
+      "id": "n16",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n1"
+    },
+    {
+      "id": "n17",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n1"
+    },
+    {
+      "id": "n18",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n2"
+    },
+    {
+      "id": "n19",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n0"
+    },
+    {
+      "id": "n20",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n1"
+    },
+    {
+      "id": "n21",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n2"
+    },
+    {
+      "id": "n22",
+      "type": "PUBLISHES",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n5"
+    },
+    {
+      "id": "n23",
+      "type": "PUBLISHES",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n6"
+    },
+    {
+      "id": "n24",
+      "type": "PUBLISHES",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n7"
+    },
+    {
+      "id": "n25",
+      "type": "PUBLISHES",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n8"
+    },
+    {
+      "id": "n26",
+      "type": "PUBLISHES",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n9"
+    },
+    {
+      "id": "n27",
+      "type": "LIKES",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n8"
+    },
+    {
+      "id": "n28",
+      "type": "LIKES",
+      "style": {},
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n9"
+    },
+    {
+      "id": "n29",
+      "type": "LIKES",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n7"
+    },
+    {
+      "id": "n30",
+      "type": "LIKES",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n9"
+    },
+    {
+      "id": "n31",
+      "type": "LIKES",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n8"
+    },
+    {
+      "id": "n32",
+      "type": "LIKES",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n5"
+    },
+    {
+      "id": "n33",
+      "type": "LIKES",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n9"
+    },
+    {
+      "id": "n34",
+      "type": "LIKES",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n7"
+    },
+    {
+      "id": "n35",
+      "type": "LIKES",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n5"
+    }
+  ]
+}
