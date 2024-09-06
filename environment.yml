@@ -2,28 +2,30 @@
 # mamba env create --file environment.yml
 # conda env export --from-history > environment.yml
 
-name: DM&N
+name: DMN
 channels:
   - anaconda
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11
-  - pip
   - black
-  - pylint
+  - fs
   - invoke
   - ipykernel
   - ipython
   - jupyter
   - jupyterlab
-  - python-dotenv
-  - pyprojroot
-  - fs
+  - matplotlib
   - nbdime
   - numpy
   - pandas
+  - pip
   - pyjanitor
-  - matplotlib
+  - pylint
+  - pyprojroot
+  - python-dotenv
+  - python=3.11
   - seaborn
-  
+  - sqlalchemy
+  - pyodbc
+prefix: /home/lenovo/anaconda3/envs/DMN

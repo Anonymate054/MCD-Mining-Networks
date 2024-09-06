@@ -36,7 +36,7 @@ N/A
 
 ```bash
 conda env create -f environment.yml
-activate DM&N
+activate DMN
 ```
 
 or 
@@ -44,7 +44,7 @@ or
 ```bash
 conda install -c conda-forge mamba
 mamba env create -f environment.yml
-activate DM&N
+activate DMN
 ```
 
 ## Modules and default modules
